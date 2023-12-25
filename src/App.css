@@ -1,38 +1,56 @@
-.App {
+
+.card-img {
+  width: 400px;
+  margin: auto;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.35em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(108, 56, 56);
+}
+.profession {
+  display: flex;
+  justify-content: center;
+  font-size: 1.35em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  color:rgb(89, 41, 41);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bio {
+  text-align: center;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  margin-left: 80px;
+  margin-right: 80px;
+  color:black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  background-image: url(https://i-mom.unimedias.fr/2023/12/07/actu_malefique3-copie.jpg?auto=format,compress&cs=tinysrgb&w=1200);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
+.card {
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    background-image: linear-gradient(to top, rgb(126, 126, 176), lightblue);
+}
+button{
+    width: 300px;
+    margin: auto;
+    border-radius: 15px;
+}
+.counters{
+    text-align: center;
+    font-weight: bold;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
